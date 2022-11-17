@@ -3,7 +3,6 @@ import ShipLog from '../../../models/Shiplog'
 
 export default async function handler(req, res) {
   const { 
-    query: { _twitchid }, 
     method 
   } = req
 

@@ -1,0 +1,75 @@
+body {
+  font-family: 'Space Mono';
+  font-size: 30px;
+  
+  color: #f0f1f3;
+  padding: 20px 20px 60px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #030f1b;
+}
+
+.frontpage {
+  margin: auto;
+  width: 80%;
+  color: #4a8a6c;
+  text-align: center;
+}
+
+.frontpagecredits {
+  margin: auto;
+  width: 80%;
+  color: #f0f1f3;
+  text-align: center;
+}
+
+._twitchID {
+  margin-left: 50px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.astralbodydiv {
+  border: 2px solid #5464a2;
+  padding: 20px;
+  margin: 20px;
+  color: #4a8a6c;
+}
+
+h2 {
+  font-weight: bold;
+  margin-block-start: 0px;
+  margin-block-end: auto;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #f0f1f3;
+  margin-block-start: 0px;
+  margin-block-end: auto;
+  margin-left: 35px;
+}
+
+.entrydiv {
+  margin-bottom: 25px;
+}
+
+.facts {
+  color:#f0f1f3;
+  margin-left: 70px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  font-size: 0.8em;
+}
+
+.moretoexplore {
+  font-weight: normal;
+  margin-left: 70px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  font-size: 0.8em;
+  color: #e8a72f;
+}

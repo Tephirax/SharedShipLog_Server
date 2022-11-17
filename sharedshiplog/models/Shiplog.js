@@ -7,7 +7,6 @@ const entryContentsSchema = new mongoose.Schema({
 })
 
 const entrySchema = new mongoose.Schema({
-  _astroObjectID: String,
   _entryID: String,
   _entryName: String,
   _moreToExplore: Boolean,
@@ -15,9 +14,14 @@ const entrySchema = new mongoose.Schema({
   entryContents: [entryContentsSchema]
 })
 
+const astralBodySchema = new mongoose.Schema({
+  _astroObjectID: String,
+  entry: [entrySchema]
+})
+
 const ShipLogSchema = new mongoose.Schema({
   _twitchID: String,
-  entry: [entrySchema]
+  astralBodies: [astralBodySchema]
 })
 
 // Convert schema into a model for use
