@@ -1,5 +1,5 @@
 import dbConnect from '../../../lib/dbConnect'
-import ShipLog from '../../../models/Shiplog'
+import ShipLog from '../../../models/ShipLog.js'
 
 export default async function handler(req, res) {
   const { 
