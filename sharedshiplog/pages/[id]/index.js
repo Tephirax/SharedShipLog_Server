@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import dbConnect from '../../lib/dbConnect'
-import ShipLog from '../../models/ShipLog'
+import ShipLog from '../../models/ShipLog.js'
 
 /* Allows you to view shiplog info */
 const ShipLogPage = ({ twitchID, shiplog }) => {
