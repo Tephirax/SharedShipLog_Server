@@ -1,6 +1,6 @@
 body {
   font-family: 'Space Mono';
-  font-size: 30px;
+  font-size: 1.6em;
   
   color: #f0f1f3;
   padding: 20px 20px 60px;
@@ -9,67 +9,76 @@ body {
   background-color: #030f1b;
 }
 
+@media (max-width: 600px) {
+  body {
+      padding: 0;
+      max-width: 100%;
+      font-size: 1.3em;
+  }
+}
+
 .frontpage {
-  margin: auto;
-  width: 80%;
-  color: #4a8a6c;
-  text-align: center;
+    margin: auto;
+    width: 80%;
+    color: #4a8a6c;
+    text-align: center;
 }
 
 .frontpagecredits {
-  margin: auto;
-  width: 80%;
-  color: #f0f1f3;
-  text-align: center;
+    margin: auto;
+    width: 80%;
+    color: #f0f1f3;
+    text-align: center;
 }
 
 ._twitchID {
-  margin-left: 50px;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
+    margin-left: 50px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .astralbodydiv {
-  border: 2px solid #5464a2;
-  padding: 20px;
-  margin: 20px;
-  color: #4a8a6c;
+    border: 2px solid #5464a2;
+    padding: 20px;
+    margin: 20px;
+    color: #4a8a6c;
 }
 
 h2 {
-  font-weight: bold;
-  margin-block-start: 0px;
-  margin-block-end: auto;
-  margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-block-start: 0px;
+    margin-block-end: auto;
+    margin-bottom: 25px;
 }
 
 h3 {
-  font-weight: normal;
-  color: #f0f1f3;
-  margin-block-start: 0px;
-  margin-block-end: auto;
-  margin-left: 35px;
+    font-weight: normal;
+    color: #f0f1f3;
+    font-size: 1.1em;
+    margin-block-start: 0px;
+    margin-block-end: auto;
+    margin-left: 35px;
 }
 
 .entrydiv {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .facts {
-  color:#f0f1f3;
-  margin-left: 70px;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
-  font-size: 0.8em;
+    color: #f0f1f3;
+    margin-left: 70px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: 0.8em;
 }
 
 .moretoexplore {
-  font-weight: normal;
-  margin-left: 70px;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
-  font-size: 0.8em;
-  color: #e8a72f;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: 0.8em;
+    color: #e8a72f;
 }
