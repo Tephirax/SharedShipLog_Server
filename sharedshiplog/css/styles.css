@@ -9,14 +9,6 @@ body {
   background-color: #030f1b;
 }
 
-@media (max-width: 600px) {
-  body {
-      padding: 0;
-      max-width: 100%;
-      font-size: 1.3em;
-  }
-}
-
 .frontpage {
     margin: auto;
     width: 80%;
@@ -81,4 +73,24 @@ h3 {
     margin-block-end: 10px;
     font-size: 0.8em;
     color: #e8a72f;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+        max-width: 100%;
+        font-size: 1.3em;
+    }
+
+    .entrydiv h3 {
+        margin-left: 3%;
+    }
+
+    .facts {
+        margin-left: 8%;
+    }
+    
+    .moretoexplore {
+        margin-left: 8%;
+    }
 }
