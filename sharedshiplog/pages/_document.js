@@ -4,8 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link 
+          href="https://fonts.bunny.net/css?family=space-mono:400" 
           rel="stylesheet"
         />
       </Head>
